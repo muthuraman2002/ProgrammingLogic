@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Entry Module</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Information Entry</h1>
+        <form id="userForm">
+            <label for="fieldName">Field Name:</label>
+            <input type="text" id="fieldName" required>
+
+            <label for="fieldValue">Field Value:</label>
+            <input type="text" id="fieldValue" required>
+
+            <button type="submit">Add Entry</button>
+        </form>
+
+        <h2>User Information</h2>
+        <ul id="userInfoList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
